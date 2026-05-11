@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras - Quantibook</title>
+    <link rel="stylesheet" href="css/styles (compra).css">
+</head>
+<body>
+
+    <!-- Header con logo y menu -->
+    <header>
+        <a href="index.html" class="logo">
+            <img src="css/imagenes/logo.png" alt="logo" width="50">
+            <h1>Quantibook</h1>
+        </a>
+
+        <!-- Menu de navegacion -->
+        <nav>
+            <a href="index.html">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="inicio" width="28">
+                <p>Inicio</p>
+            </a>
+            <a href="compra.html" class="activo">
+                <img src="https://cdn-icons-png.flaticon.com/512/107/107831.png" alt="carrito" width="28">
+                <p>Carrito</p>
+            </a>
+            <a href="form_donacion.html">
+                <img src="https://cdn-icons-png.flaticon.com/512/3500/3500833.png" alt="donar" width="28">
+                <p>Donar</p>
+            </a>
+            <a href="#">
+                <img src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" alt="perfil" width="28">
+                <p>Perfil</p>
+            </a>
+        </nav>
+    </header>
+
+    <!-- Barra de busqueda -->
+    <section class="buscador">
+        <input type="search" placeholder="Buscar libros...">
+        <button type="button">
+            <img src="https://cdn-icons-png.flaticon.com/512/54/54481.png" alt="buscar" width="18">
+        </button>
+    </section>
+
+    <!-- Filtros y ordenamiento -->
+    <section class="controles">
+        <details class="filtro">
+            <summary>
+                <img src="https://cdn-icons-png.flaticon.com/512/107/107799.png" alt="filtros" width="16">
+                Filtros
+            </summary>
+            <ul>
+                <li>Categorías</li>
+                <li>Condición</li>
+                <li>Rango de precio</li>
+                <li>Descuentos</li>
+            </ul>
+        </details>
+
+        <details class="filtro">
+            <summary>
+                <img src="https://cdn-icons-png.flaticon.com/512/3839/3839611.png" alt="ordenar" width="16">
+                Ordenar
+            </summary>
+            <ul>
+                <li>Menor a mayor</li>
+                <li>Mayor a menor</li>
+                <li>Más destacados</li>
+            </ul>
+        </details>
+    </section>
+
+    <!-- Productos -->
+    <main class="productos">
+
+        <a href="info_producto.html" class="producto">
+            <img src="https://covers.openlibrary.org/b/isbn/0747532699-L.jpg" alt="Harry Potter 1">
+            <div class="info">
+                <p class="nombre">Harry Potter y la piedra filosofal</p>
+                <p class="precio">$299 MXN</p>
+            </div>
+        </a>
+
+        <a href="#" class="producto">
+            <img src="https://covers.openlibrary.org/b/isbn/0747538492-L.jpg" alt="Harry Potter 2">
+            <div class="info">
+                <p class="nombre">Harry Potter y la cámara secreta</p>
+                <p class="precio">$349 MXN</p>
+            </div>
+        </a>
+
+        <a href="#" class="producto">
+            <img src="https://covers.openlibrary.org/b/isbn/0747546290-L.jpg" alt="Harry Potter 3">
+            <div class="info">
+                <p class="nombre">Harry Potter y el prisionero de Azkaban</p>
+                <p class="precio">$220 MXN</p>
+            </div>
+        </a>
+
+        <a href="#" class="producto">
+            <img src="https://covers.openlibrary.org/b/id/15158631-L.jpg" alt="Harry Potter 4">
+            <div class="info">
+                <p class="nombre">Harry Potter y el cáliz de fuego</p>
+                <p class="precio">$141 MXN</p>
+            </div>
+        </a>
+
+        <a href="#" class="producto">
+            <img src="https://covers.openlibrary.org/b/isbn/0060883286-L.jpg" alt="Cien años de soledad">
+            <div class="info">
+                <p class="nombre">Cien años de soledad</p>
+                <p class="precio">$185 MXN</p>
+            </div>
+        </a>
+
+        <a href="#" class="producto">
+            <img src="https://covers.openlibrary.org/b/isbn/0156012197-L.jpg" alt="El principito">
+            <div class="info">
+                <p class="nombre">El principito</p>
+                <p class="precio">$129 MXN</p>
+            </div>
+        </a>
+
+        <a href="#" class="producto">
+            <img src="https://covers.openlibrary.org/b/isbn/8497592131-L.jpg" alt="Don Quijote">
+            <div class="info">
+                <p class="nombre">Don Quijote de la Mancha</p>
+                <p class="precio">$279 MXN</p>
+            </div>
+        </a>
+
+        <a href="#" class="producto">
+            <img src="https://covers.openlibrary.org/b/isbn/0143034901-L.jpg" alt="La sombra del viento">
+            <div class="info">
+                <p class="nombre">La sombra del viento</p>
+                <p class="precio">$299 MXN</p>
+            </div>
+        </a>
+
+    </main>
+
+    <!-- Pie de pagina con contacto -->
+    <footer>
+        <p>Siguenos en redes sociales</p>
+        <ul>
+            <li>
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968958.png" alt="x" width="28">
+                @Quantibook
+            </li>
+            <li>
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="instagram" width="28">
+                @Quantibook
+            </li>
+            <li>
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="whatsapp" width="28">
+                868 949 9400
+            </li>
+        </ul>
+        <p class="copy">© 2026 Quantibook</p>
+    </footer>
+
+</body>
+</html>
